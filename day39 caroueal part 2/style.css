@@ -1,0 +1,25 @@
+#container{
+    display: flex;
+    align-items: center; 
+    position: relative;   
+}
+
+
+#root{
+    border: 1px solid red;
+    margin: auto;
+    width: 80%;
+    /* position: relative; */
+}
+#root > img{
+    width: 100%;
+  
+}
+#prevbtn{
+    position: absolute;
+    left:200px;
+}
+#nextbtn{
+    position: absolute;
+    right: 200px;
+}
